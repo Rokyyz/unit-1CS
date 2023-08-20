@@ -9,5 +9,5 @@ My first program
 print("Hello World!")
 ```
 
-![Uploading Screenshot 2023-08-21 at 08.56.19.png…]()
+![image](https://github.com/Rokyyz/unit-1CS/assets/134658259/4976be1c-1144-4e83-aca4-58fef8b2d19f)
 Fig. 1. Parts of the computer I remember
