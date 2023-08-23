@@ -1,0 +1,48 @@
+#intro.py
+#today we will work on easy programming
+"""
+Today we will use input output and functions aug 23
+"""
+my_name = "Edvards Rokens" #string
+my_email = 'edvards@uwcisak.jp'
+is_student = True #boolean True:1 or False:0
+my_age = 17 # this is an integer
+my_height = 1.86 # this is a float
+
+#show messages with 
+print(my_name)
+print(my_email, my_age, end = "")
+print(my_height)
+
+#f-string
+print('Welcome', my_name, "your email is", my_email)
+print(f'Welcome {my_name}, your email is {my_email}')
+
+#input
+## position = input("Please enter your position")
+## salary = int( input("Please enter your salary JPY"))
+
+## print(f"your position is {position} and salary is {salary}")
+
+#year = int(input('Please enter your year of graduation'))
+#first_name = input('Please eneter your first name').title()
+#last_name = input('Please enter your last name').title()
+#print(f'your email is {year}.{first_name}.{last_name}@uwcisak.jp')
+
+#validating correct inputs from user
+
+##while True:
+   # raw_year = input('Please enter your year of graduation'))
+   # if raw_year.isdigit() == True:
+    #    year = int(raw_year)
+     #   break
+    #print(year)
+    
+email = input('please enter your email adress') 
+
+while True:
+    if "@" in email:
+        break
+
+if emial.endswith('uwcisak.jp'):
+    print('welcome')
