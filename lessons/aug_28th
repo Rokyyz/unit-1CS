@@ -7,7 +7,7 @@ def largerInteger(A:int, B:int) -> :int:
     output = 'B'
   return output
 
-largerInteger(2012,15)
+r = largerInteger(2012,15)
 print(r)
 
 ->
