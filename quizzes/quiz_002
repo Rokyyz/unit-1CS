@@ -1,1 +1,25 @@
+# Quiz002
 
+
+
+# 1. flow diagram
+
+
+
+# 2. solutions
+
+
+```.py
+
+a = input('please input an integer: ')
+b = input('please input an integer: ')
+
+is20 = False
+
+if int(a) == 20 or int(b) == 20 or int(a) + int(b) == 20:
+    is20 = True
+
+print(is20)
+
+```
+# 3. proof of work
