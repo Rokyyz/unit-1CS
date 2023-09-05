@@ -1,4 +1,4 @@
- Quiz003
+# Quiz003
 
 
 
@@ -11,15 +11,22 @@
 
 ```.py
 
-a = input('please input an integer: ')
-b = input('please input an integer: ')
+def DNA_translator(in_protein:str)->str:
+    out_protein = ''
+    if in_protein =='A':
+        out_protein = "T"
+    if in_protein  == 'G':
+        out_protein = 'C'
+    if in_protein == 'T':
+        out_protein = 'A'
+    if in_protein == 'C':
+        out_protein = 'G'
+    if in_protein == 'AGCT':
+        out_protein = 'TCGA'
+    return out_protein
 
-is20 = False
-
-if int(a) == 20 or int(b) == 20 or int(a) + int(b) == 20:
-    is20 = True
-
-print(is20)
+r = DNA_translator('AGCT')
+print(r)
 
 ```
 # 3. proof of work
