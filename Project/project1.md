@@ -1,5 +1,8 @@
 # Crypto Wallet
 
+![image](https://github.com/Rokyyz/unit-1CS/assets/134658259/4d5644ab-a44d-4118-91e1-7a47efac85c7)
+
+
 # Criteria A: Planning
 
 ## Problem definition
