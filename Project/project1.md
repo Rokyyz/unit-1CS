@@ -27,14 +27,6 @@ I will to design and make a ———— for a client who is ———. The —�
 
 Justify the tools/structure of your solution
 
-
-A: planning
-B: design
-C: development
-D: functionality
-E: evaluation
-
-
 ## Success Criteria
 
 
