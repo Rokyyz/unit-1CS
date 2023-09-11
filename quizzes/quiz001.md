@@ -4,6 +4,7 @@
 
 # 1. flow diagram
 
+![quiz 1](https://github.com/Rokyyz/unit-1CS/assets/134658259/2ba419d8-3e7a-48da-aed0-d4b79a554713)
 
 
 # 2. solutions
