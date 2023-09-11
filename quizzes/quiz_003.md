@@ -3,8 +3,9 @@
 
 
 # 1. flow diagram
-
-
+![quiz 3 1](https://github.com/Rokyyz/unit-1CS/assets/134658259/181e4d19-99a9-47c5-923d-e51b78561ddc)
+![quiz 3 2](https://github.com/Rokyyz/unit-1CS/assets/134658259/d2d1fc60-e6d9-45a6-a850-2418353dce71)
+![quiz 3 3](https://github.com/Rokyyz/unit-1CS/assets/134658259/bf2d3d04-71a9-46e8-b021-6b4a7d0f0d0b)
 
 # 2. solutions
 
