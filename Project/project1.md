@@ -21,9 +21,14 @@ An example of the data stored is
 
 ## Proposed Solution
 Design statement:
-I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
 
-** add a description of your coin and citation **
+** add a description of your coin and citation (MLA)**
+
+At its heart, Dogecoin is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes. 
+
+https://dogecoin.com/ 
+
 
 Justify the tools/structure of your solution
 
