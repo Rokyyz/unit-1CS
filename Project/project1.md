@@ -46,7 +46,9 @@ Justify the tools/structure of your solution
 
 ## System Diagram
 
-Figure 2 This is the system diagram which starts fromn the input whoch is the keyboard to the output which is the terminal in Pycharm. The computer that...
+![IMG_1819](https://github.com/Rokyyz/unit-1CS/assets/134658259/cf396afe-d75c-4077-95a4-d39495cf2c74)
+
+Figure 2. This is a system diagram, it starts with the input - the keyboard and it finishes with the output which is the terminal in Pycharm. The computer that is used to program this wallet is MacBook Air Retina, 13-inch 2018 (the specs are further listed in the diagram) with macOs Ventura Version 13.5.2. The code is coded in Pycharm 3.9.6.
 
 ## Flow Diagrams
 
