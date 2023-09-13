@@ -38,17 +38,19 @@ Justify the tools/structure of your solution
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The electronic ledger advises whether to buy or sell the coin
+5. The electronic ledger displays a login page with encrypted password
+6. The electronic ledger graphs/makes a table of your portfolio value
 
 # Criteria B: Design
 
 ## System Diagram
 
+Figure 2 This is the system diagram which starts fromn the input whoch is the keyboard to the output which is the terminal in Pycharm. The computer that...
+
 ## Flow Diagrams
 
-## Records of Taslks
+## Records of Tasks
 
 
 # Criteria C: Development
