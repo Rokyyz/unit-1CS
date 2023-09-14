@@ -48,18 +48,39 @@ Justify the tools/structure of your solution
 
 ![IMG_1819](https://github.com/Rokyyz/unit-1CS/assets/134658259/cf396afe-d75c-4077-95a4-d39495cf2c74)
 
-Figure 2. This is a system diagram, it starts with the input - the keyboard and it finishes with the output which is the terminal in Pycharm. The computer that is used to program this wallet is MacBook Air Retina, 13-inch 2018 (the specs are further listed in the diagram) with macOs Ventura Version 13.5.2. The code is coded in Pycharm 3.9.6.
+**Figure 1.** This is a system diagram, it starts with the input - the keyboard and it finishes with the output which is the terminal in Pycharm. The computer that is used to program this wallet is MacBook Air Retina, 13-inch 2018 (the specs are further listed in the diagram) with macOs Ventura Version 13.5.2. The code is coded in Pycharm 3.9.6.
 
 ## Flow Diagrams
+**Fig. 2** This is the flow diagram for the login system
+
 
 ## Records of Tasks
 
+| Task No | Planned Action        | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
+|---------|-----------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 24                 | B         |
+| 2       | Create a login system | To have a flow diagram and the code for the login system                                 | 30min         | Sep 14                 | B, C      |
 
 # Criteria C: Development
 
 ## Login System
+My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file.
 
+As you can see in the flow diagram in **Fig 1**, in the first line I am defining a function called try_login, this function has two inputs of type string, and the output is a boolean representing True if the user logins correctly or false otherwise. Tjos os saved in the variable success. Then in line two... this is your work.
 
+```.py
 
+def try_login(name:str, password:str)-> bool:
+    with open('users.csv', mode='r') as f:
+        data = f.readlines()
 
+    success = False
+    for line in data:
+        uname = line.split(',')[0]
+        upass = line.split(',')[1].strip() # strip() removes \n
+        if uname == name and upass == password:
+            success = True
+            break
+    return success
 
+```
