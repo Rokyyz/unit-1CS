@@ -2,7 +2,9 @@
 
 # 1. flow diagram
 
+![IMG_1851](https://github.com/Rokyyz/unit-1CS/assets/134658259/af239329-5fd1-4bbf-a5fc-4bcc60f705da)
 
+![IMG_1852](https://github.com/Rokyyz/unit-1CS/assets/134658259/b55e3a42-834f-4ad0-9e0b-52d36f501bb0)
 
 
 # 2. solutions
