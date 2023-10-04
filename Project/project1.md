@@ -259,4 +259,44 @@ The first line as mentioned opens up a function to later call and input data. Af
             print('The value has stayed the same, wait')
 
 ```
+## Deposits
 
+My client required an option to deposit her money in her account after the crypto investments that she had made. I thought about creating an input for the client to input the amount of money they had made and wanted to store and then register that amount of money to a database csv file to keep track of the account's transactions.
+
+The first line makes sure that the user has truly chosen to deposit money into the account. The next line asks for the amount of money the user wishes to deposit.  After that with the with open tool, a csv file gets opened and set into the append mode to add lines to the file. It needs to append information on the amount of value that has been deposited to keep track of the account transactions. After the data has been successfully stored, it returns positive feedback back to the user. And with the import function, it sates for today to always be the current date that the login has been made. After everything has been done it prints out the balance in the account so the user can be sure the money has been successfully deposited.
+```.py
+    if option == 1: #deposit
+        amount = validate_int(msg="Please enter amount to deposit: ", menu="")
+        line = f'{date},{amount}\n'
+        with open('/Users/edvards/PycharmProjects/unit1/classes/atm.csv', mode ='a') as f:
+            f.writelines(line)
+        print('saved')
+        balance = balance_check()
+        today = datetime.date.today()
+        print(f"Your balance {today} is $ {balance}")
+        menu()
+
+```
+
+## Withdraws
+
+My client required an option to withdraw the money she made from trading DogeCoin so she could spend it for her own needs. I thought about creating an input for the client to input the amount of money they wanted to cash out and then register that that amount of money has been taken out of the account to a database csv file to keep track of the account's transactions.
+
+The first line makes sure that the user has truly chosen to deposit money into the account. The next line asks for the amount of money the user wishes to withdraw. And with the import function, it states for the date to always be the current date that the login has been made. After that with the with open tool, a csv file gets opened and set into the append mode to add lines to the file. It needs to append information on the amount of value that has been withdrawn to keep track of the account transactions. However, if the user doesn't have enough money in the account to withdraw the wanted amount, it returns an error and informs the user about the issue. After the data has been successfully stored, it returns positive feedback back to the user. After everything has been done it prints out the balance in the account so the user can be sure the money has been successfully deposited. 
+
+```.py
+    if option == 2:
+        amount1 = validate_int(msg="Please enter amount to withdraw: ", menu="")
+        date = datetime.date.today()  # today's date
+        balance = balance_check()
+        if balance - amount1 >= 0:
+            line = f'{date},{amount1*-1}\n'
+            with open('/Users/edvards/PycharmProjects/unit1/classes/atm.csv', mode='a') as f:
+                f.writelines(line)
+            print(f'$ {amount1} has been withdrawn from your account')
+            print(f'your balance is $ {balance-amount1}')
+        else:
+            print('You do not have enough money in your account, call your dad')
+        menu()
+
+```
