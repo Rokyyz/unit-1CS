@@ -94,6 +94,11 @@ Because Python is so flexible with multiple functions and because it makes all o
 **Fig. 4** 
 This flow diagram displays the login and register function when first starting the code. It first asks for the user to indicate whether the user wants to sign in to an already existing account with an allocated password or create a new account with a new password. The new account username with the newly assigned password gets uploaded into the "users2.csv" file. Before logging in after both registering and signing in the code checks if the username and the password pair appear in the "users2.csv" file, if it does then the user gets directed to the next page - the menu, if the pair doesn't match, an error appears.
 
+
+## Test plan
+
+
+
 ## Records of Tasks
 
 | Task No | Planned Action                                                                                                            | Planned Outcome                                                                                                                                                                                                                                                                                                                                                                                   | Time estimate | Target completion date | Criterion |
