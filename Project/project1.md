@@ -25,6 +25,7 @@ I will design and make an electronic ledger for a client, Ms. Sato, a cryptocurr
 "Dogecoin is an open-source, dog-themed cryptocurrency established in 2013 by Jackson Palmer and Billy Markus. It's based on an internet meme. Dogecoin features a Shiba Inu, a Japanese breed of dog, as its logo. It is based on Litecoin and uses the same proof-of-work technology. The currency’s faceplate features the Shiba Inu’s head with the letter “D” superimposed. Although the value of an individual Dogecoin is very small (often a portion of a cent) the massive number of Dogecoins in circulation correlates to a market capitalization of over $1 billion." [REF1]
 
 [REF1]
+
 Works Cited
 FRANKENFIELD, JAKE. “Cryptocurrency Dogecoin (DOGE): What It Is, History, and Uses.” INVESTOPEDIA, 9 September 2022, https://www.investopedia.com/terms/d/dogecoin.asp#:~:text=Dogecoin%20is%20an%20open%2Dsource,proof%2Dof%2Dwork%20technology. Accessed 4 October 2023.
 Rouse, Margaret. “Dogecoin.” Techopedia, 4 September 2023, https://www.techopedia.com/definition/33147/dogecoin#:~:text=Dogecoin%20is%20a%20dog%2Dthemed,capitalization%20of%20over%20%241%20billion. Accessed 4 October 2023.
