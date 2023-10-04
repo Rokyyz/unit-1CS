@@ -79,7 +79,7 @@ Because Python is so flexible with multiple functions and because it makes all o
 **Figure 1.** This is a system diagram, it starts with the input - the keyboard and it finishes with the output which is the terminal in Pycharm. The computer that is used to program this wallet is MacBook Air Retina, 13-inch 2018 (the specs are further listed in the diagram) with macOs Ventura Version 13.5.2. The code is coded in Pycharm 3.9.6.
 
 ## Flow Diagrams
-**Fig. 2** This is the flow diagram for the login system
+**Fig. 2** 
 
 ![IMG_1825](https://github.com/Rokyyz/unit-1CS/assets/134658259/815f53bf-79c1-4985-bb8d-6dd35ecdb1d5)
 
