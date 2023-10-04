@@ -4,7 +4,7 @@
 
 # 1. flow diagram
 
-![IMG_20337D2FACA2-1](https://github.com/Rokyyz/unit-1CS/assets/134658259/f6a295ee-6c00-4454-921f-8ddb1e2e4775)
+![Com Sci 10](https://github.com/Rokyyz/unit-1CS/assets/134658259/6974447b-13cb-4f36-b048-7c5766b19b6f)
 
 
 # 2. solutions
