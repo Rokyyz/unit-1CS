@@ -45,14 +45,14 @@ Dogecoin has been integrated into various payment systems and platforms, enablin
 
 Why Python:
 
-*Interface
+* Interface
 Python has a friendly and easy-to-understand interface thus making it easy to both code and work in the terminal and run/test the code.
 It has multiple built-in libraries and toolkits thus making it easier and more time efficient to code. All of this helps Ms. Sato to easily overview and work in the electronic ledger.
 
-*Flexibility and multifunction
+* Flexibility and multifunction
 Python offers great flexibility in terms of code, input, and imported items thus assuring multifunctional features allowing for unique features like in-time updates on a certain item. In Ms. Sato's case, it helps her to monitor the value of the coin and advise her on what to do with her portfolio.
 
-*Maintainance and readability
+* Maintainance and readability
 Because Python is so flexible with multiple functions and because it makes all of these possibilities to be coded in a simple manner with easy-to-understand, clean, and easy syntax software updates and maintenance are easy to manage and there is way lower risk for a bug to appear in the code. This assures that this software will be useful to Ms. Sato for a long time, will run without problems, and can be easily updated and further developed.
 
 
@@ -70,7 +70,8 @@ Because Python is so flexible with multiple functions and because it makes all o
 
 ## System Diagram
 
-![IMG_1819](https://github.com/Rokyyz/unit-1CS/assets/134658259/cf396afe-d75c-4077-95a4-d39495cf2c74)
+![CommSci](https://github.com/Rokyyz/unit-1CS/assets/134658259/a85865ac-47e9-48db-b8f7-35016ae7cfe5)
+
 
 **Figure 1.** This is a system diagram, it starts with the input - the keyboard and it finishes with the output which is the terminal in Pycharm. The computer that is used to program this wallet is MacBook Air Retina, 13-inch 2018 (the specs are further listed in the diagram) with macOs Ventura Version 13.5.2. The code is coded in Pycharm 3.9.6.
 
