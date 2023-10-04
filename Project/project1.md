@@ -81,7 +81,17 @@ Because Python is so flexible with multiple functions and because it makes all o
 ## Flow Diagrams
 **Fig. 2** 
 
-![IMG_1825](https://github.com/Rokyyz/unit-1CS/assets/134658259/815f53bf-79c1-4985-bb8d-6dd35ecdb1d5)
+![Com Sci](https://github.com/Rokyyz/unit-1CS/assets/134658259/a7735c18-e1d9-4323-a579-f41fc46fbd30)
+
+**Fig. 3** 
+
+![Com Sci 2](https://github.com/Rokyyz/unit-1CS/assets/134658259/3b0c992d-fb24-45fb-8da4-edae60eb649f)
+
+
+**Fig. 4** 
+
+![Com Sci 3](https://github.com/Rokyyz/unit-1CS/assets/134658259/61f4ea62-b912-4c10-b511-0a4d7bdfa3fe)
+
 
 ## Records of Tasks
 
