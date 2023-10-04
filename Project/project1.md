@@ -82,18 +82,17 @@ Because Python is so flexible with multiple functions and because it makes all o
 
 ![Com Sci](https://github.com/Rokyyz/unit-1CS/assets/134658259/a7735c18-e1d9-4323-a579-f41fc46fbd30)
 
-**Fig. 2** This flow diagram illustrates the calculation of the code for the total balance the user has in their account depending on their deposit and withdrawal history. The code will open, read and append in the"atm.csv" file to see the data inside, and then calculate the difference to find the current balance and converted amount (USD).
+**Fig. 2** This flow diagram illustrates the code calculation for the total balance the user has in their account depending on their deposit and withdrawal history. The code will open, read and append in the"atm.csv" file to see the data inside, and then calculate the difference to find the current balance and converted amount (USD).
 
 
 ![Com Sci 2](https://github.com/Rokyyz/unit-1CS/assets/134658259/3b0c992d-fb24-45fb-8da4-edae60eb649f)
 
-**Fig. 3** 
-
+**Fig. 3** This flow diagram displays a 3-bar graph that includes the amount of balance in the user account and the withdraws and deposits made into the account. It calculates the total amount of money deposited, withdrawn and depending on these two variables also the balance and displays it in the same ratio in an organized, categorized bar graph.
 
 ![Com Sci 3](https://github.com/Rokyyz/unit-1CS/assets/134658259/61f4ea62-b912-4c10-b511-0a4d7bdfa3fe)
 
-**Fig. 4** This flow diagram displays a 3-bar graph that includes the amount of balance in the user account, as well as the withdraws and deposits made into the account. It calculates the total amount of money deposited, withdrawn and depending on these two variables also the balance and displays it in a in an organized categorized bar graph.
-
+**Fig. 4** 
+This flow diagram displays the login and register function when first starting the code. It first asks for the user to indicate whether the user wants to sign in to an already existing account with an allocated password or create a new account with a new password. The new account username with the newly assigned password gets uploaded into the "users2.csv" file. Before logging in after both registering and signing in the code checks if the username and the password pair appear in the "users2.csv" file, if it does then the user gets directed to the next page - the menu, if the pair doesn't match, an error appears.
 
 ## Records of Tasks
 
