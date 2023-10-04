@@ -4,8 +4,8 @@
 
 # 1. flow diagram
 
+![Com Sci 5](https://github.com/Rokyyz/unit-1CS/assets/134658259/3d939b77-3ecc-498b-bb10-b1ae99c828fa)
 
-![IMG_BF0235B5FB96-1](https://github.com/Rokyyz/unit-1CS/assets/134658259/e7404c2a-7d58-4951-a08a-7a7a2451a370)
 
 
 # 2. solutions
