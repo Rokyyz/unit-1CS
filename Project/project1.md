@@ -134,24 +134,129 @@ This flow diagram displays the login and register function when first starting t
 5. Importation of libraries and csv files
 6. List comprehension
 
-## Login System
-My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file.
+## Registration system
+My client requires a system to protect private data. I thought about using a login system to accomplish this requirement using an if condition and the open command to work with a csv file.
 
-As you can see in the flow diagram in **Fig 1**, in the first line I am defining a function called try_login, this function has two inputs of type string, and the output is a boolean representing True if the user logins correctly or false otherwise. Tjos os saved in the variable success. Then in line two... this is your work.
+As you can see in the flow diagram in **Fig 4**, in the first line I am defining a function called try_signup, this function has two inputs of type string, and the output is a boolean representing True if the user logs in correctly or false otherwise. This is saved in the variable success. The next line opens a "users2.csv" file in which the code appends a name and a password pair when the user is trying to create an account, if it is done successfully feedback is given back to the user. The next function try_login has almost the same code as the try_signup function with the only difference being the mode of the csv file - read. This means that the code reads inside the file the 2 arguments. Next up is the for-loop prepares the name and password to be evaluated, compared, and defined further in the code. Further up we can see an if statement which works in the sense if the user chooses the log-in feature and correctly inputs the name and password pair that had already been registered in the csv file, success turns True and the program gives positive feedback to the user. Next, the answer is defined so that when opening the program the client receives the question of whether they would like to sign up or log in. The while loop makes sure either s or r is input, if not it returns negative feedback. If the user has responded with a sign the program keeps checking if the input username and password pair exists in the csv file. If not one attempt out of 3 is subtracted, and the user gets asked again for the correct username and password pair, and if there are no more attempts left the user gets exited out of the program as a safety precaution. If the user chose to register, the program offers just that and appends the new information value pair to the file.
 
 ```.py
 
-def try_login(name:str, password:str)-> bool:
-    with open('users.csv', mode='r') as f:
-        data = f.readlines()
+def try_signup(name: str, password: str) -> bool:
+    with open('/Users/edvards/PycharmProjects/unit1/project1/users2.csv', mode='a') as file:
+        file.writelines(f'{name},{password},0\n')  # Writing a line with a newline character at the end
+        print('account created')
+        file.close()
+
+def try_login(name: str, password: int) -> bool:
+    with open('/Users/edvards/PycharmProjects/unit1/project1/users2.csv', mode='r') as file:
+        content = file.readlines()
+        file.close()
 
     success = False
-    for line in data:
+
+    for line in content:
         uname = line.split(',')[0]
-        upass = line.split(',')[1].strip() # strip() removes \n
+        upass = line.split(',')[1].strip()  # strip() removes \n
         if uname == name and upass == password:
             success = True
+            print('login data recognized')
             break
+
     return success
 
+answer = input('Would you like to sign in or register: type s or r: ')
+while answer != 's' and answer != 'r':
+    answer = input('Error, indicate if you would like to sign in or register: type s or r ')
+
+if answer in "s":
+    attempts = 3
+    in_name = input("Enter your username: ")
+    in_pass = input("Enter your password: ")
+    result = try_login(name=in_name, password=in_pass)
+    attempts -= 1
+    while not result and result == False and attempts > 1:
+        in_name = input(Fore.RED + "[Error, try again] Enter your username: ")
+        in_pass = input("Enter your password: ")
+        result = try_login(name=in_name, password=in_pass)
+        attempts -= 1
+    if attempts == 0:
+        print(Fore.RED + 'exiting...')
+        exit(1)  # 1 is the code for exit without errors
+
+elif answer in 'r':
+    sign_name = input('Create a username of your choice: ')
+    sign_pass = input('Create a password of your choice: ')
+    try_signup(name=sign_name, password=sign_pass)
+
+# the program continues here if it doesn't close
+time.sleep(1)
+print(Fore.RED + "Loading...")
+time.sleep(1)
+print(Fore.RED + 'Acess granted')
+
 ```
+## Menu options
+
+My client requires a menu options page in order to easily view and choose the correct action that needs to be done with the portfolio. I thought about creating a function for a menu and then defining a menu with values and then using the print command to accomplish this requirement.
+
+The first line indicates that a function for the menu has been created later in the code recall it easily and/or input data that is needed to be displayed when the function is called/printed. After that, the print statement asks the user to choose an option that is presented below. Later on, the menu items have been actually written down. The other 2 print lines just print what are the options
+
+```.py
+
+def menu():
+    print(Fore.GREEN + '\nPlease choose an option' + Fore.RESET)
+
+    menu_1 = ["Deposit", "Withdraw", "Balance", "Graph", "Suggestion", "Description", "Exit"]
+    print("The menu is:")
+    print_menu(menu_1)
+
+```
+## Description of a coin
+
+My client has requested for the electronic ledger to include a basic description of the crypto coin of her choice DogeCoin. I included  the g year of release, creator, inspiration behind creation, and value. I thought about simply printing some relevant information found on the internet regarding the coin.
+
+In the first line, it makes the code check if the user has chosen option 6 which is "Description". If this proves to be right then the following print lines of text are shown on screen.
+
+```.py
+    if option == 6:
+        print('Dogecoin is an open-source cryptocurrency established in 2013 by Jackson Palmer and Billy Markus\n')
+        print("It's based on an internet meme.\n")
+        print('Dogecoin features a Shiba Inu, a Japanese breed of dog, as its logo.\n')
+        print('It is based on Litecoin and uses the same proof-of-work technology.\n')
+        print("The currency’s faceplate features the Shiba Inu’s head with the letter “D” superimposed.\n")
+        print('Although the value of an individual Dogecoin is very small (often a portion of a cent)\n')
+        print('the massive number of Dogecoins in circulation correlates to a market capitalization of over $1 billion.')
+
+```
+
+## Fetching data, suggestion/advice
+
+My client has requested that I include a menu option where she can view the current value of the coin and how it has changed since the last login to the site. And since she is just starting out as a crypto trader she would like some advice on when to potentially sell or buy the coin. I thought about finding an internet site and fetching live data by inspecting the code that constantly updates the value of the coin. I researched about this on the internet to find the simplest and most easy-to-understand code. I achieved this by creating a function for a new value and then using the open method to write to the doge_value csv file. 
+
+The first line as mentioned opens up a function to later call and input data. After that, the open code writes lines in the doge_value csv file which will fixate the value of the price of the coin after a login has been registered. When it has written these lines, the print statement makes sure that the user sees that the new value of the coin has been added to the csv file. The next line of code defines a variable 'URL' with the web address of Dogecoin's price on crypto.com. Then it sends a GET request to the provided URL and stores the response in the 'page' variable. The line which defines soup creates a BeautifulSoup object, 'soup', to parse the HTML content of the 'page'. Output extracts the text content of a specific HTML element using its class and then converts the extracted text to a floating-point number. The last value calls the function 'check_last()' to retrieve the last stored value and converts it to a float. In order to give the advice the code has to know whether the coin has risen or fallen in value by comparing the current updated value of the coin vs the value of the coin from a previous request. The calling of the function adds the current value to the database. The print message informs the user about the difference between the current and last values, rounded to four decimal places. And the rest of the code evaluates if the difference is positive or negative and depending on the result gives a suggestion .
+
+```.py
+        def add_new(value):
+            with open('/Users/edvards/PycharmProjects/unit1/project1/doge_value.csv', mode='w') as doge_value:
+                doge_value.writelines(f"{value}")
+                print(f"$ {value} added to the database")
+
+
+        url = 'https://crypto.com/price/dogecoin'
+        page = requests.get(url)
+        soup = BeautifulSoup(page.text, 'html5lib')
+        output = soup.find('span', class_="chakra-text css-13hqrwd").text.strip('$ USD')
+        output = float(output)
+        last_value = float(check_last())
+        difference = output - last_value
+        add_new(output)
+        print(f"Difference between now and last value: ${round(difference, 4)} ")
+        if difference < 0:
+            print('I advise you to buy since it dropped in value and future profit is possible')
+        elif difference > 0:
+            print('I advise you to sell since it rose in value and profit is possible')
+        else:
+            print('The value has stayed the same, wait')
+
+```
+
