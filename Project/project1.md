@@ -4,9 +4,9 @@
 
 ## Problem definition
 
-Ms. Sato is a local trader who is interested in the emerging market of cryptocurrencies. She has started to buy and sell electronic currencies, however at the moment she is tracking all his transaction using a ledger in a spreadsheet which is starting to become burdensome and too disorganized. It is also difficult for Ms Sato to find past transactions or important statistics about the currency. Ms Sato is in need of a digital ledger that helps her track the amount of the cryptocurrency, the transactions, along with useful statistics. 
+Ms. Sato is a local trader who is interested in the emerging market of cryptocurrencies. She has started to buy and sell electronic currencies, however, at the moment she is tracking all his transactions using a ledger in a spreadsheet which is starting to become burdensome and too disorganized. It is also difficult for Ms. Sato to find past transactions or important statistics about the currency. Ms Sato is in need of a digital ledger that helps her track the amount of the cryptocurrency, and the transactions, along with useful statistics. 
 
-Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
+Apart from these requirements, Ms. Sato is open to exploring a cryptocurrency selected by the developer.
 
 An example of the data stored is 
 
@@ -76,21 +76,23 @@ Because Python is so flexible with multiple functions and because it makes all o
 ![CommSci](https://github.com/Rokyyz/unit-1CS/assets/134658259/a85865ac-47e9-48db-b8f7-35016ae7cfe5)
 
 
-**Figure 1.** This is a system diagram, it starts with the input - the keyboard and it finishes with the output which is the terminal in Pycharm. The computer that is used to program this wallet is MacBook Air Retina, 13-inch 2018 (the specs are further listed in the diagram) with macOs Ventura Version 13.5.2. The code is coded in Pycharm 3.9.6.
+**Figure 1.** This is a system diagram, it starts with the input - the keyboard and it finishes with the output which is the terminal in Pycharm. The computer that is used to program this wallet is a MacBook Air Retina, 13-inch 2018 (the specs are further listed in the diagram) with macOS Ventura Version 13.5.2. The code is coded in Pycharm 3.9.6.
 
 ## Flow Diagrams
-**Fig. 2** 
 
 ![Com Sci](https://github.com/Rokyyz/unit-1CS/assets/134658259/a7735c18-e1d9-4323-a579-f41fc46fbd30)
 
-**Fig. 3** 
+**Fig. 2** This flow diagram illustrates the calculation of the code for the total balance the user has in their account depending on their deposit and withdrawal history. The code will open, read and append in the"atm.csv" file to see the data inside, and then calculate the difference to find the current balance and converted amount (USD).
+
 
 ![Com Sci 2](https://github.com/Rokyyz/unit-1CS/assets/134658259/3b0c992d-fb24-45fb-8da4-edae60eb649f)
 
+**Fig. 3** 
 
-**Fig. 4** 
 
 ![Com Sci 3](https://github.com/Rokyyz/unit-1CS/assets/134658259/61f4ea62-b912-4c10-b511-0a4d7bdfa3fe)
+
+**Fig. 4** This flow diagram displays a 3-bar graph that includes the amount of balance in the user account, as well as the withdraws and deposits made into the account. It calculates the total amount of money deposited, withdrawn and depending on these two variables also the balance and displays it in a in an organized categorized bar graph.
 
 
 ## Records of Tasks
