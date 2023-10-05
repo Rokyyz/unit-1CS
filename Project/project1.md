@@ -1,5 +1,8 @@
 # Crypto Wallet
 
+![image](https://github.com/Rokyyz/unit-1CS/assets/134658259/463192b5-ed8c-454a-9407-dcdb0f2bf38e)
+[1]
+
 # Criteria A: Planning
 
 ## Problem definition
@@ -22,7 +25,7 @@ I will design and make an electronic ledger for a client, Ms. Sato, a cryptocurr
 
 ## Description of coin 
 
-"Dogecoin is an open-source, dog-themed cryptocurrency established in 2013 by Jackson Palmer and Billy Markus. It's based on an internet meme. Dogecoin features a Shiba Inu, a Japanese breed of dog, as its logo. It is based on Litecoin and uses the same proof-of-work technology. The currency’s faceplate features the Shiba Inu’s head with the letter “D” superimposed. Although the value of an individual Dogecoin is very small (often a portion of a cent) the massive number of Dogecoins in circulation correlates to a market capitalization of over $1 billion." [REF1,2]
+"Dogecoin is an open-source, dog-themed cryptocurrency established in 2013 by Jackson Palmer and Billy Markus. It's based on an internet meme. Dogecoin features a Shiba Inu, a Japanese breed of dog, as its logo. It is based on Litecoin and uses the same proof-of-work technology. The currency’s faceplate features the Shiba Inu’s head with the letter “D” superimposed. Although the value of an individual Dogecoin is very small (often a portion of a cent) the massive number of Dogecoins in circulation correlates to a market capitalization of over $1 billion." [2,3]
 
 
 ## Justification of the tools/structure of your solution
@@ -51,7 +54,7 @@ Python offers great flexibility in terms of code, input, and imported items thus
 * Maintainance and readability
 Because Python is so flexible with multiple functions and because it makes all of these possibilities to be coded in a simple manner with easy-to-understand, clean, and easy syntax software updates and maintenance are easy to manage and there is way lower risk for a bug to appear in the code. This assures that this software will be useful to Ms. Sato for a long time, will run without problems, and can be easily updated and further developed.
 
-* It is the most popular and widely used programming language and it is also among the fastest-growing programming languages in the tech industry [3]. According to CodingNomads, 30% of developers wish to learn Python the most [4]. As a result of the language's popularity, the program is easier for many developers to understand than languages like C or Javascript. This will benefit the digital ledger because it makes it simple for new programmers to understand and easily interact with the code and advance its development. There are also a wide range of libraries that are available in Python which can be easily accessed using a basic syntax [5]. Further, Python is a very efficient language that does not require the programmer to compile their program before executing it. Due to the fact that programmers do not have to invoke a compiler and run the compiler that helps turn source files into compiled class files, they can just simply run a ".py" file [6].
+* It is the most popular and widely used programming language and it is also among the fastest-growing programming languages in the tech industry [4]. According to CodingNomads, 30% of developers wish to learn Python the most [5]. As a result of the language's popularity, the program is easier for many developers to understand than languages like C or Javascript. This will benefit the digital ledger because it makes it simple for new programmers to understand and easily interact with the code and advance its development. There are also a wide range of libraries that are available in Python which can be easily accessed using a basic syntax [6]. Further, Python is a very efficient language that does not require the programmer to compile their program before executing it. Due to the fact that programmers do not have to invoke a compiler and run the compiler that helps turn source files into compiled class files, they can just simply run a ".py" file [7].
 
 
 ## Success Criteria
@@ -310,7 +313,19 @@ The first line makes sure that the user has truly chosen to deposit money into t
 # Citations
 
 Works Cited
-[REF1]
-FRANKENFIELD, JAKE. “Cryptocurrency Dogecoin (DOGE): What It Is, History, and Uses.” INVESTOPEDIA, 9 September 2022, https://www.investopedia.com/terms/d/dogecoin.asp#:~:text=Dogecoin%20is%20an%20open%2Dsource,proof%2Dof%2Dwork%20technology. Accessed 4 October 2023.
-[REF2]
+
+DataFlair. “Advantages and Disadvantages of Python - How it is dominating Programming World.” DataFlair, 2023, https://data-flair.training/blogs/advantages-and-disadvantages-of-python/. Accessed 5 October 2023. 
+[6]
+Desmond, Kim, and Caden MacKenzie. “Why Learn Python? 6 Reasons Why it's So Hot Right Now.” CodingNomads, 7 April 2023, https://codingnomads.co/why-learn-python/. Accessed 5 October 2023.
+[5]
+FRANKENFIELD, JAKE. “Cryptocurrency Dogecoin (DOGE): What It Is, History, and Uses.” INVESTOPEDIA, 9 september 2022, https://www.investopedia.com/terms/d/dogecoin.asp#:~:text=Dogecoin%20is%20an%20open%2Dsource,proof%2Dof%2Dwork%20technology. Accessed 4 october 2023.
+[2]
+IndustryTrends. “Could Dogecoin (DOGE) Beat Shiba Inu (SHIB) for Good? Analysts Recommend Collateral Network (COLT) to Surpass Both in 2023.” Analytics Insight, 31 May 2023, https://www.analyticsinsight.net/could-dogecoin-doge-beat-shiba-inu-shib-for-good-analysts-recommend-collateral-network-colt-to-surpass-both-in-2023/. Accessed 5 October 2023.
+[1]
 Rouse, Margaret. “Dogecoin.” Techopedia, 4 September 2023, https://www.techopedia.com/definition/33147/dogecoin#:~:text=Dogecoin%20is%20a%20dog%2Dthemed,capitalization%20of%20over%20%241%20billion. Accessed 4 October 2023.
+[3]
+Sanyal, Sayantani. “10 Reasons Why Python is One of the Best Programming Languages.” Analytics Insight, 18 February 2022, https://www.analyticsinsight.net/10-reasons-why-python-is-one-of-the-best-programming-languages/. Accessed 5 October 2023.
+Vilmate. “Advantages of the Python Language over Other Ones | Vilmate.” VILMATE, 2019, https://vilmate.com/blog/python-vs-other-programming-languages/. Accessed 5 October 2023.
+[4]
+Vilmate. “Advantages of the Python Language over Other Ones | Vilmate.” VILMATE, 2019, https://vilmate.com/blog/python-vs-other-programming-languages/. Accessed 5 October 2023.
+[7]
