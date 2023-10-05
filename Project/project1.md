@@ -312,7 +312,7 @@ The first line makes sure that the user has truly chosen to deposit money into t
 ```
 # Citations
 
-Works Cited
+## Works Cited
 
 DataFlair. “Advantages and Disadvantages of Python - How it is dominating Programming World.” DataFlair, 2023, https://data-flair.training/blogs/advantages-and-disadvantages-of-python/. Accessed 5 October 2023. 
 [6]
