@@ -310,6 +310,10 @@ The first line makes sure that the user has truly chosen to deposit money into t
         menu()
 
 ```
+## Video of the program
+
+
+
 # Citations
 
 ## Works Cited
