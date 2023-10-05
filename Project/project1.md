@@ -18,7 +18,7 @@ An example of the data stored is
 
 ## Proposed Solution
 Design statement:
-I will design and make an electronic ledger for a client, Ms. Sato, a cryptocurrency trader keen on learning more skills surrounding trading cryptocurrencies. The electronic ledger will track cryptocurrency transactions in the account, display the current value of the chosen crypto coin, compare it to a previous data point, and make suggestions regarding investment opportunities using the software Python. It will take approximately one 3-4 weeks to make and will be evaluated according to the criteria shown in the success criteria, including functionality, and usability.
+I will design and make an electronic ledger for a client, Ms. Sato, a cryptocurrency trader keen on learning more skills surrounding trading cryptocurrencies. The electronic ledger will track cryptocurrency transactions in the account, display the current value of the chosen crypto coin, compare it to a previous data point, and make suggestions regarding investment opportunities using the software Python (1). The client likes for her data to remain safe so I will try to introduce a login and registration system (2). Ms. Sato also fancies her account data regarding all withdraws, deposits and overall balance to be displayed in an easy-to-read way, so I decided to try and implement these data values in a graph (3). It will take approximately 2-3 weeks to make and will be evaluated according to the criteria shown in the success criteria, including functionality, and usability.
 
 ## Description of coin 
 
@@ -60,9 +60,9 @@ Because Python is so flexible with multiple functions and because it makes all o
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger displays the selected cryptocurrency's description including year of release, creator, basic description, inspiration behind creation, and worth.
 3. The electronic ledger allows to enter, withdraw, and record transactions.
-4. The electronic ledger advises whether to buy or sell the coin, based on the record of transactions.
-5. The electronic ledger has a login and registration interface.
-6. The electronic ledger graphs your portfolio value and the history of your transactions.
+4. The electronic ledger advises whether to buy or sell the coin, based on the record of transactions. (Issue tackled(1))
+5. The electronic ledger has a login and registration interface. (Issue tackled(2))
+6. The electronic ledger graphs your portfolio value and the history of your transactions. (Issue tackled(3))
 
 # Criteria B: Design
 
