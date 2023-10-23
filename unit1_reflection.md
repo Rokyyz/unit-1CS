@@ -9,16 +9,16 @@
   * Color, fetching data
  
 # 2. What did not work well?
-* I asked for too much help from peers or seniors, gave up too easily even though I had more in myself
-* I was stru
-
+* I asked for too much help from peers or seniors, and gave up too easily even though I had more in myself
+* I was struggling with basic coding tasks, like in-class quizzes or even "snakify" exercises
   
 # 3. What is your goal for unit 2?
-* To make my code less than 100 lines
-  * My goal is to use functions to make my code more concise.
+* In general develop better coding skills
+* Make my project documentation better
 * Master flow charts
-  * I still struggle to make flow charts so I want to be able to make them without looking at past flow charts.
+  * I still make some basic mistakes while making flow charts and it could look better
 
 # 4. How do you plan on achieving that goal?
-* By using functions to prevent repetition
-* I will continue to practice through daily quizzes
+* Do more "snakify" quizzes, try to do tasks without help, do code wars in "CodinGame"
+* Looking at feedback from 1st project and taking it into consideration going forward.
+* Drawing more flowcharts for quizzes and projects, getting feedback, and improving on it.
